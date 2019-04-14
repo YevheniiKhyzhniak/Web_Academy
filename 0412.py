@@ -33,8 +33,6 @@ def list_sorting_checker(input_list):
     else:
         return'list has desc order'
 
-
-
 for i in input_raw_list:
     result = list_sorting_checker(input_raw_list)
     print(result)
